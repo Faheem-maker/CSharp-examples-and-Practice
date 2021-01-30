@@ -68,8 +68,8 @@ def main():
         fileObj = open(outputFileName, 'w')
         fileObj.write(translated)
         fileObj.close()
-        print('Done %sing %s (%s characters).' % (myMode, inputFilename,len(content)))
-        print('%sed file is %s.' % (myMode.title(), outputFilename))
+        print('Done %sing %s (%s characters).' % (myMode, inputFileName,len(content)))
+        print('%sed file is %s.' % (myMode.title(), outputFileName))
 
 if __name__ == '__main__':
     main()
